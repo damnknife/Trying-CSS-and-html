@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../assets/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../assets/OpenSans-Regular.ttf);
+}
+
+
+
+
+html, body {
+		background:#e6e9ed;
+	margin: 0;
+  height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#7199b5;
+}
+
+nav{
+position:absolute;;
+overflow: hidden;
+width: 100%;
+background-color:#7199b5;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+
+	background: white;
+	line-height: 1.8;
+	padding-bottom: 0;
+}
+
+img{
+	height: 5em;
+	width: auto;
+	left:50%;
+	right: 50%;
+}
+
+header{
+
+}
+h1 {
+	font: 1em;
+	color: rgba(83, 104, 138, 0);
+
+	}
+h2 {
+	font: 2em font2, Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+	margin: auto;
+	margin-bottom: .2em;
+ margin-top: 40px;
+  margin-left: 700px;
+}
+h3 {
+	font-size: 1.2em;
+ margin-left: 700px;
+}
+p {
+	margin-bottom: 1em;
+}
+a {
+	color: rgb(184, 126, 84);
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+  padding: 0;
+  overflow:hidden;
+	background-color:#7199b5;
+	width:800px;
+
+	margin: auto;
+
+}
+
+
+nav li{
+	display:block;
+	float:left;
+	width: 200px;
+	box-sizing: border-box;
+	text-align: center;
+
+
+}
+
+nav a {
+	color: #FFF;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: bold;
+
+
+}
+nav a:hover {
+	color: #FFF;
+}
+
+nav li:hover {
+    background-color:#89b1ce;
+    color: #FFF;
+
+}
+
+
+
+footer{
+	background-color: #7199b5;
+	padding-top: 15px;
+	font-size:0.75em;
+	position:absolute;
+	bottom:0;
+	line-height: 0.4em;
+	width:100%;
+
+}
+
+footer p{
+	margin-left: 1em;
+}
+
+.contato{
+	align-self: center;
+}
+
+.contato p{
+	padding: 0;
+	margin: 0;
+	font-family: font2, monospace;;
+	font-size: 0.8em;
+	line-height: 1.2em;
+	text-align: center;
+	font-weight: 800;
+ margin-left: 110px;
+}
+
+.contato h3{
+	font-size: 1.5em;
+	font-family: font1, sans-serif;;
+	margin:auto;
+	padding: 0;
+	line-height: 120%;
+	margin-left: 600px;
+	margin-top: 5em;
+;
+}
+
+
+article h3{
+	margin-left: 50px;
+}
+
+main{
+	margin-left: 200px;
+}
+
+
+
+main li{
+
+	font-family: font1, sans-serif;
+		margin-left: 45px;
+
+}
+
+main li li{
+	font-size: 0.9em;
+	margin: auto;
+	width: 80%;
+}
+
+article li, article p{
+	width: 80%;
+	margin: auto;
+	font-family: font1, sans-serif;
+}

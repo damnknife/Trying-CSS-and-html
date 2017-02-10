@@ -1,0 +1,98 @@
+html, body {
+	background: rgb(53,94,197); /* Beccapurple */
+	margin: 0;
+  height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(53,94,197);
+}
+
+nav{
+  background-color: rgb(53,94,197);
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	width: 80%;
+	min-height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	background: white;
+	line-height: 1.8;
+
+}
+h1 {
+	font: 1.6em Verdana, Geneva, sans-serif;
+	margin-bottom: .4em;
+	color: rgb(83, 104, 138);
+}
+h2 {
+	font: 2em Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+	margin-bottom: .2em;
+  margin-top: 1.5em;
+  text-align: center;
+}
+h3 {
+	font-size: 1.2em;
+}
+p {
+	margin-bottom: 1em;
+}
+a {
+	color: rgb(184, 126, 84);
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+  padding: 0;
+  overflow: hidden;
+	background-color:rgb(53,94,197);
+}
+
+nav li{
+	display:block;
+	float:left;
+
+}
+
+nav a {
+	color: #FFF;
+  font-style: normal;
+  text-decoration: none;
+
+  font-weight: bold;
+	padding: 10px;
+  margin-left: 0;
+
+
+}
+nav a:hover {
+	color: #FFF;
+}
+
+nav li:hover {
+    background-color: rgb(85,85,85);
+    color: #FFF;
+
+}
+
+nav{
+  border: 2px solid rgb(83, 104, 138);
+  margin-left: 20em;
+  margin-right: 15em;
+  border-radius: 7px;
+	overflow: hidden;
+}
+
+footer{
+	font-size:0.6em;
+	position:absolute;
+	bottom:0;
+}
