@@ -11,7 +11,7 @@
 body {
   font-family: 'font2', sans-serif;
   font-weight: 300;
-	background-color: rgb(224, 234, 241);
+	background-color: rgba(161,196,253,.5);
 }
 
 .inicio{
@@ -26,7 +26,7 @@ height: 400px;
 
 header {
   padding: 20px 0;
-	background-color: rgb(193, 216, 230);
+background-image: linear-gradient(120deg, #c2e9fb 0%, #a1c4fd 100%);
 	color: black;
 	font-size: 1.5rem;
 	font-weight: bold;
